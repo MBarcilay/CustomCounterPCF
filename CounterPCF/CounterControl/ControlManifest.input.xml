@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="m365" constructor="CounterControl" version="0.0.1" display-name-key="CounterControl" description-key="CounterControl Description" control-type="standard">
+    <property name="counterValue" display-name-key="Counter Value" description-key="Current counter value" of-type="Whole.None" usage="bound" required="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
